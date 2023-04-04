@@ -1,0 +1,59 @@
+.Button {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #043994;
+    padding: 60px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+    color:white;
+    font-size:24px;
+    border-radius: 8px;
+  }
+
+  .inMeetingLabel {
+    margin: 10px;
+    padding: 0px;
+    font-size: 24px;
+   
+  }
+
+  .Button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+  .toggleMicrophone {
+    background-color: #2a2b2a;
+  }
+
+  .toggleMicrophone:hover {
+    background-color: #118b11;
+  }
+
+  .toggleCamera {
+    background-color: #2a2b2a;
+  }
+
+  .toggleCamera:hover {
+    background-color: #118b11;
+  }
+
+  .switchView {
+    background-color: #2a2b2a;
+  }
+
+  .switchView:hover {
+    background-color: #118b11;
+  }
+
+  .endCall {
+    background-color: #9e0e04;
+  }
+
+  .endCall:hover {
+    background-color: red;
+  }

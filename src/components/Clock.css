@@ -1,0 +1,17 @@
+.Clock {
+    text-align: right;
+    padding:20;
+    margin:20;
+}
+
+.Time {
+    font-size: calc(18px + 4vmin);
+    text-align: right;
+    
+    }
+
+.Date {
+    font-size: calc(12px + 1vmin);
+     text-align: right;
+   
+    }

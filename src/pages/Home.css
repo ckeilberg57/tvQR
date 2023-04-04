@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #0A2136;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/736x/ca/08/cf/ca08cff753ccdc0c5666300bfb821fce.jpg'); */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.appTitle {
+color: #0EBEC7;
+margin: 5px;
+padding: 0px;
+font-size:44px;
+}
+
+.appInfo {
+margin: 0px;
+padding: 0px;
+font-size: 12px;
+text-align: center;
+color: gainsboro;
+
+  }
+
+
+.inputForm {
+  font-size: 14px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.remoteControlButton {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color:red;
+  padding: 20px;
+  margin: 0px;
+  cursor: pointer;
+  text-align: center;
+  color:white;
+  font-size:28px;
+  border-radius: 8px;
+}

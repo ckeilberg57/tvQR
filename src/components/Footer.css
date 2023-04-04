@@ -1,0 +1,24 @@
+.Footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0A2136;
+    color: white;
+    text-align: center;
+}
+
+.CompanyLogo {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    }
+
+.FooterText {
+        margin: 0px;
+        padding: 0px;
+        font-size: 12px;
+        text-align: center;
+        color: gainsboro;
+    
+      }
