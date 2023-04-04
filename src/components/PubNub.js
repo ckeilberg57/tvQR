@@ -8,8 +8,8 @@ import React, { useState, useEffect } from 'react';
 
 
 const pubnub = new PubNub({
-  publishKey: 'pub-c-1b93a589-f9f0-4065-a42b-21716f18b614',
-  subscribeKey: 'sub-c-9f214fcc-ced4-11ec-bb58-6e591379c0d0',
+  publishKey: 'pub-c-df7d4742-a65f-4f77-8f83-f1771c9445ba',
+  subscribeKey: 'sub-c-b8d120fe-7004-40cb-ac25-0fc682333de0',
   keepAlive: true, // Keep the connection alive
   presenceTimeout: 600, // Don't timeout for 10 minutes
   uuid: '1234'
