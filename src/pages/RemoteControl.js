@@ -10,8 +10,8 @@ console.log ("Remote Control Channel:", channelID );
 const RemoteControl = () => {
     
     var virtualRemote = new PubNub({
-        publishKey: 'pub-c-62c7c7fd-85b5-41d0-a67f-7e3601a60752',
-        subscribeKey: 'sub-c-4d7062b1-224e-4c5a-bcc4-1e789b5a6d32',
+        publishKey: 'pub-c-df7d4742-a65f-4f77-8f83-f1771c9445ba',
+        subscribeKey: 'sub-c-b8d120fe-7004-40cb-ac25-0fc682333de0',
         keepAlive: true, // Keep the connection alive
         presenceTimeout: 600, // Don't timeout for 10 minutes
         uuid: "PexAssist_VirtualRemote"
